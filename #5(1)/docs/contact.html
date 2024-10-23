@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们 - OpenJT</title>
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/67187ce0d29ded1a8c74da1a.png" media="screen and (max-width: 480px)" type="image/x-icon">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/67187ce0d29ded1a8c74d9f6.png" media="screen and (min-width: 481px &&max-width: 1024px)" type="image/x-icon">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/67187ce0d29ded1a8c74da0e.jpg" media="screen and (min-width: 1025px)" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../common.css">
+</head>
+<body>
+    <header>
+        <div class="logo">OpenJT</div>
+        <div class="HamburgerMenu">☰</div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="./service.html">服务</a></li>
+                <li><a href="./development.html">发展</a></li>
+                <li><a href="./contact.html" class="active">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-container">
+        <div id="padding-top"><h1>联系我们</h1></div>
+        
+        <section class="contact-info">
+            <h2>联系方式</h2>
+            <p>电话：+86 188 1234 8888</p>
+            <p>邮箱：3175131947@qq.com</p>
+            <p>地址：四川省成都市成华区建设北路二段4号</p>
+        </section>
+
+        <section class="contact-form">
+            <h2>给我们留言</h2>
+            <form id="contact-form">
+
+                <div>
+                    <label for="name">姓名：</label>
+                    <input type="text" id="name" name="name" required autocomplete="on">
+                </div>
+
+                <div>
+                    <label for="email">邮箱：</label>
+                    <input type="email" id="email" name="email" required autocomplete="on">
+                </div>
+
+                <div>
+                    <label for="message">留言：</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" id="contact-button">发送</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">OpenJT</div>
+                <div class="footer-links">
+                    <a href="../index.html">首页</a>
+                    <a href="./service.html">服务</a>
+                    <a href="./development.html">发展</a>
+                    <a href="./contact.html" class="active">联系我们</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="微博"><i class="fab fa-weibo"></i></a>
+                    <a href="#" aria-label="微信"><i class="fab fa-weixin"></i></a>
+                    <a href="#" aria-label="领英"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-O">
+                &copy; 2024 OpenJT.
+            </div>
+        </div>
+    </footer>
+
+    <script src="./contact.js"></script>
+    <script src="../common.js"></script>
+</body>
+</html>
